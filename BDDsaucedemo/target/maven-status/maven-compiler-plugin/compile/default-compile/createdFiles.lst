@@ -1,0 +1,3 @@
+org\example\PageObject\LandingPage.class
+org\example\PageObject\LoginPage.class
+org\example\PageObject\CheckoutPage.class

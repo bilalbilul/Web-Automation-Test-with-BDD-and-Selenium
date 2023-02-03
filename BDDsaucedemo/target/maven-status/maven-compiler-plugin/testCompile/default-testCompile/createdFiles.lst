@@ -1,0 +1,5 @@
+step_defenition\RunCukesTest.class
+step_defenition\CheckoutSteps.class
+step_defenition\LoginStep.class
+step_defenition\Hooks.class
+step_defenition\purchaseSteps.class
