@@ -47,4 +47,11 @@ public class CheckoutSteps {
         Thread.sleep(3000);
     }
 
+    @And("User click button Finish")
+    public void buttonFinish() throws InterruptedException{
+        CheckoutPage checkoutPage = new CheckoutPage(webDriver);
+        checkoutPage.clickBtnFinis();
+        Thread.sleep(3000);
+    }
+
 }

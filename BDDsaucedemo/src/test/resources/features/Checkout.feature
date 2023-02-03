@@ -14,4 +14,5 @@
       And User already on Checkout Page
       Then User input "Muhammad" as firstName and input "Bilal" as lastName and input "11530" as zipCode
       And User click button Continue
-      And User already on Overview Page
+      Then User already on Overview Page
+      And User click button Finish

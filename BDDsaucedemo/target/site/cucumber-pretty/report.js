@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 4916599500,
+  "duration": 5262421100,
   "status": "passed"
 });
 formatter.scenario({
@@ -82,13 +82,18 @@ formatter.step({
 formatter.step({
   "line": 17,
   "name": "User already on Overview Page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 18,
+  "name": "User click button Finish",
   "keyword": "And "
 });
 formatter.match({
   "location": "LoginStep.verifyLogin()"
 });
 formatter.result({
-  "duration": 317893300,
+  "duration": 316818100,
   "status": "passed"
 });
 formatter.match({
@@ -105,14 +110,14 @@ formatter.match({
   "location": "LoginStep.inputCredential(String,String)"
 });
 formatter.result({
-  "duration": 358654800,
+  "duration": 369930800,
   "status": "passed"
 });
 formatter.match({
   "location": "purchaseSteps.verifyLandingPage()"
 });
 formatter.result({
-  "duration": 3076671300,
+  "duration": 3091038700,
   "status": "passed"
 });
 formatter.match({
@@ -125,42 +130,42 @@ formatter.match({
   "location": "purchaseSteps.sortProductValue(String)"
 });
 formatter.result({
-  "duration": 3208342500,
+  "duration": 3189642200,
   "status": "passed"
 });
 formatter.match({
   "location": "purchaseSteps.choiceProduct()"
 });
 formatter.result({
-  "duration": 3130799800,
+  "duration": 3131812500,
   "status": "passed"
 });
 formatter.match({
   "location": "purchaseSteps.btnChart()"
 });
 formatter.result({
-  "duration": 3088425400,
+  "duration": 3093830300,
   "status": "passed"
 });
 formatter.match({
   "location": "purchaseSteps.removeProduct()"
 });
 formatter.result({
-  "duration": 3067647800,
+  "duration": 3096515100,
   "status": "passed"
 });
 formatter.match({
   "location": "purchaseSteps.btnCheckout()"
 });
 formatter.result({
-  "duration": 3106934400,
+  "duration": 3109530200,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckoutSteps.verifyCheckoutPage()"
 });
 formatter.result({
-  "duration": 3052180700,
+  "duration": 3049403400,
   "status": "passed"
 });
 formatter.match({
@@ -181,25 +186,32 @@ formatter.match({
   "location": "CheckoutSteps.inputForm(String,String,String)"
 });
 formatter.result({
-  "duration": 3350096000,
+  "duration": 3400442300,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckoutSteps.btnConti()"
 });
 formatter.result({
-  "duration": 3195055800,
+  "duration": 3096506900,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckoutSteps.verifyOverview()"
 });
 formatter.result({
-  "duration": 3151465900,
+  "duration": 3117341000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CheckoutSteps.buttonFinish()"
+});
+formatter.result({
+  "duration": 3077679800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 772178000,
+  "duration": 797048100,
   "status": "passed"
 });
 });
