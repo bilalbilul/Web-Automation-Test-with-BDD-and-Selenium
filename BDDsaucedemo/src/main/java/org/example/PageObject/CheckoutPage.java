@@ -31,11 +31,14 @@ public class CheckoutPage {
     @FindBy(xpath = "//h3")
     private WebElement formError;
 
-    @FindBy(xpath = "//div[@class='summary_info']/div[7]")
+    @FindBy(xpath = "//div[@class='summary_total_label']")
     private WebElement verifTotal;
 
     @FindBy(xpath = "//button[@id='finish']")
     private WebElement btnFinis;
+
+    @FindBy(xpath = "//h2[@class='complete-header']")
+    private WebElement verifFinish;
 
     public static boolean vrfyCheckoutPage() {
         vrfyCheckoutPage.isDisplayed();
@@ -67,13 +70,17 @@ public class CheckoutPage {
         return formError.getText();
     }
 
-    public boolean verifTotalAmount(){
-        verifTotal.isDisplayed();
-        return true;
+    public String verifTotalAmount(){
+        return verifTotal.getText();
     }
 
     public void clickBtnFinis(){
         btnFinis.click();
+    }
+
+    public boolean verifyFinish(){
+        verifFinish.isDisplayed();
+        return true;
     }
 
 }

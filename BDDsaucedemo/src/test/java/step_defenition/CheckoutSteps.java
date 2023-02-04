@@ -40,17 +40,23 @@ public class CheckoutSteps {
         Thread.sleep(3000);
     }
 
-    @Then("User already on Overview Page")
-    public void verifyOverview() throws InterruptedException{
+    @Then(value = "User see total \"(.*)\" on Overview Page")
+    public void verifyTotal(String verifTotal){
         CheckoutPage checkoutPage = new CheckoutPage(webDriver);
-        Assert.assertTrue(checkoutPage.verifTotalAmount());
-        Thread.sleep(3000);
+        Assert.assertEquals(verifTotal, checkoutPage.verifTotalAmount());
     }
 
     @And("User click button Finish")
     public void buttonFinish() throws InterruptedException{
         CheckoutPage checkoutPage = new CheckoutPage(webDriver);
         checkoutPage.clickBtnFinis();
+        Thread.sleep(3000);
+    }
+
+    @Then("User already on Finish Page")
+    public void verFinish() throws InterruptedException{
+        CheckoutPage checkoutPage = new CheckoutPage(webDriver);
+        checkoutPage.verifyFinish();
         Thread.sleep(3000);
     }
 

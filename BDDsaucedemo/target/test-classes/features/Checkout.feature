@@ -14,10 +14,6 @@
       And User already on Checkout Page
       Then User input "Muhammad" as firstName and input "Bilal" as lastName and input "11530" as zipCode
       And User click button Continue
-      Then User already on Overview Page
+      Then User see total "Total: $8.63" on Overview Page
       And User click button Finish
-
-    Scenario Outline: validation form
-      Given User open the website sauce demo
-      Examples:
-        |  |
+      
