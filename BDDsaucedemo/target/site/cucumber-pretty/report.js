@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5262421100,
+  "duration": 5031252600,
   "status": "passed"
 });
 formatter.scenario({
@@ -93,7 +93,7 @@ formatter.match({
   "location": "LoginStep.verifyLogin()"
 });
 formatter.result({
-  "duration": 316818100,
+  "duration": 322689800,
   "status": "passed"
 });
 formatter.match({
@@ -110,14 +110,14 @@ formatter.match({
   "location": "LoginStep.inputCredential(String,String)"
 });
 formatter.result({
-  "duration": 369930800,
+  "duration": 470126700,
   "status": "passed"
 });
 formatter.match({
   "location": "purchaseSteps.verifyLandingPage()"
 });
 formatter.result({
-  "duration": 3091038700,
+  "duration": 3189463700,
   "status": "passed"
 });
 formatter.match({
@@ -130,42 +130,42 @@ formatter.match({
   "location": "purchaseSteps.sortProductValue(String)"
 });
 formatter.result({
-  "duration": 3189642200,
+  "duration": 3163404700,
   "status": "passed"
 });
 formatter.match({
   "location": "purchaseSteps.choiceProduct()"
 });
 formatter.result({
-  "duration": 3131812500,
+  "duration": 3133251000,
   "status": "passed"
 });
 formatter.match({
   "location": "purchaseSteps.btnChart()"
 });
 formatter.result({
-  "duration": 3093830300,
+  "duration": 3100366500,
   "status": "passed"
 });
 formatter.match({
   "location": "purchaseSteps.removeProduct()"
 });
 formatter.result({
-  "duration": 3096515100,
+  "duration": 3074540700,
   "status": "passed"
 });
 formatter.match({
   "location": "purchaseSteps.btnCheckout()"
 });
 formatter.result({
-  "duration": 3109530200,
+  "duration": 3089166600,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckoutSteps.verifyCheckoutPage()"
 });
 formatter.result({
-  "duration": 3049403400,
+  "duration": 3041688300,
   "status": "passed"
 });
 formatter.match({
@@ -186,32 +186,61 @@ formatter.match({
   "location": "CheckoutSteps.inputForm(String,String,String)"
 });
 formatter.result({
-  "duration": 3400442300,
+  "duration": 3348652700,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckoutSteps.btnConti()"
 });
 formatter.result({
-  "duration": 3096506900,
+  "duration": 3099066000,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckoutSteps.verifyOverview()"
 });
 formatter.result({
-  "duration": 3117341000,
+  "duration": 3065075300,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckoutSteps.buttonFinish()"
 });
 formatter.result({
-  "duration": 3077679800,
+  "duration": 3082283300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 797048100,
+  "duration": 819986300,
   "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 20,
+  "name": "validation form",
+  "description": "",
+  "id": "checkout;validation-form",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 21,
+  "name": "User open the website sauce demo",
+  "keyword": "Given "
+});
+formatter.examples({
+  "line": 22,
+  "name": "",
+  "description": "",
+  "id": "checkout;validation-form;",
+  "rows": [
+    {
+      "cells": [
+        ""
+      ],
+      "line": 23,
+      "id": "checkout;validation-form;;1"
+    }
+  ],
+  "keyword": "Examples"
 });
 });

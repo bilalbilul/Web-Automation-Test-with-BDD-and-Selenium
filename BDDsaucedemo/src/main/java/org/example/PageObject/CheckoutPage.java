@@ -31,7 +31,7 @@ public class CheckoutPage {
     @FindBy(xpath = "//h3")
     private WebElement formError;
 
-    @FindBy(xpath = "//div[@class='summary_total_label']")
+    @FindBy(xpath = "//div[@class='summary_info']/div[7]")
     private WebElement verifTotal;
 
     @FindBy(xpath = "//button[@id='finish']")

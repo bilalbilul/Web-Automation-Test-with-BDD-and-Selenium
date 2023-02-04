@@ -43,7 +43,7 @@ public class CheckoutSteps {
     @Then("User already on Overview Page")
     public void verifyOverview() throws InterruptedException{
         CheckoutPage checkoutPage = new CheckoutPage(webDriver);
-        checkoutPage.verifTotalAmount();
+        Assert.assertTrue(checkoutPage.verifTotalAmount());
         Thread.sleep(3000);
     }
 

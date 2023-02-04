@@ -16,3 +16,8 @@
       And User click button Continue
       Then User already on Overview Page
       And User click button Finish
+
+    Scenario Outline: validation form
+      Given User open the website sauce demo
+      Examples:
+        |  |
