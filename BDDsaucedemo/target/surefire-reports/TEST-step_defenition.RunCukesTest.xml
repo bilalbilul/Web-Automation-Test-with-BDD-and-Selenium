@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="step_defenition.RunCukesTest" time="0.776" errors="0" skipped="0">
+<testsuite tests="14" failures="0" name="step_defenition.RunCukesTest" time="0.828" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -68,16 +68,16 @@
   </properties>
   <testcase classname="Scenario: Normal Checkout" name="Given User open the website sauce demo" time="0.004"/>
   <testcase classname="Scenario: Normal Checkout" name="When User input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as password" time="0"/>
-  <testcase classname="Scenario: Normal Checkout" name="Then User already on landing Page" time="0.001"/>
-  <testcase classname="Scenario: Normal Checkout" name="Then User sort product list by &quot;Name (Z to A)&quot;" time="0.001"/>
+  <testcase classname="Scenario: Normal Checkout" name="Then User already on landing Page" time="0"/>
+  <testcase classname="Scenario: Normal Checkout" name="Then User sort product list by &quot;Name (Z to A)&quot;" time="0"/>
   <testcase classname="Scenario: Normal Checkout" name="And User choice 2 product from the list" time="0"/>
-  <testcase classname="Scenario: Normal Checkout" name="And User click button Chart" time="0.001"/>
+  <testcase classname="Scenario: Normal Checkout" name="And User click button Chart" time="0"/>
   <testcase classname="Scenario: Normal Checkout" name="And User remove 1 product from the list" time="0.001"/>
-  <testcase classname="Scenario: Normal Checkout" name="And User click Button Checkout" time="0.001"/>
+  <testcase classname="Scenario: Normal Checkout" name="And User click Button Checkout" time="0"/>
   <testcase classname="Scenario: Normal Checkout" name="And User already on Checkout Page" time="0"/>
   <testcase classname="Scenario: Normal Checkout" name="Then User input &quot;Muhammad&quot; as firstName and input &quot;Bilal&quot; as lastName and input &quot;11530&quot; as zipCode" time="0"/>
   <testcase classname="Scenario: Normal Checkout" name="And User click button Continue" time="0"/>
   <testcase classname="Scenario: Normal Checkout" name="Then User see total &quot;Total: $8.63&quot; on Overview Page" time="0"/>
   <testcase classname="Scenario: Normal Checkout" name="And User click button Finish" time="0"/>
-  <testcase classname="Scenario: Normal Checkout" name="Scenario: Normal Checkout" time="0.767"/>
+  <testcase classname="Scenario: Normal Checkout" name="Scenario: Normal Checkout" time="0.823"/>
 </testsuite>

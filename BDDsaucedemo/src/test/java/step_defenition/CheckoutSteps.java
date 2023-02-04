@@ -41,9 +41,10 @@ public class CheckoutSteps {
     }
 
     @Then(value = "User see total \"(.*)\" on Overview Page")
-    public void verifyTotal(String verifTotal){
+    public void verifyTotal(String verifTotal) throws InterruptedException{
         CheckoutPage checkoutPage = new CheckoutPage(webDriver);
         Assert.assertEquals(verifTotal, checkoutPage.verifTotalAmount());
+        Thread.sleep(3000);
     }
 
     @And("User click button Finish")
